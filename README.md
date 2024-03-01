@@ -2,6 +2,15 @@
 
 Hello TST! This is a sample sign-up page using create-vite-app, TypeScript, and React.
 
+To run this project, run:
+
+```
+git clone git@github.com:tascodes/tst-signup.git
+cd tst-signup
+npm i
+npm run dev
+```
+
 It takes a simple approach, engaging useState wherever possible since the UI state here is not likely to grow.
 
 Please excuse my slightly sloppy CSS - I have left some defaults in place from the Vite react-ts template.
