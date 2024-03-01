@@ -1,0 +1,66 @@
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    color: black;
+    overflow: hidden;
+}
+
+.create-account-heading {
+    font-size: 24px;
+}
+
+.background {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    background-color: #8bc6ec;
+    background-image: linear-gradient(135deg, #8bc6ec 0%, #95a4e2 100%);
+}
+
+@media (min-width: 640px) {
+    .card {
+        min-width: 420px;
+    }
+}
+
+.card {
+    display: block;
+    background-color: white;
+    padding: 16px 20px;
+    border-radius: 8px;
+}
+
+label {
+    display: block;
+    align-self: self-start;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.signup-input {
+    display: block;
+    border: 1px #d1d5db solid;
+    font-size: 16px;
+    padding: 8px 16px;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    width: calc(100% - 34px);
+    background-color: white;
+    outline: none;
+}
+
+.error-container {
+    font-size: 14px;
+    color: #dc2626;
+}
+
+.signup-confirmed {
+    font-size: 20px;
+    font-weight: 400;
+}
